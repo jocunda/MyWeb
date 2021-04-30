@@ -1,0 +1,9 @@
+.card-home{
+    position:relative;
+    left: 80px;
+    bottom: 450px;
+    font-size: 50px;
+}
+.card-home-header{
+    position: relative;
+}
