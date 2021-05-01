@@ -1,9 +1,43 @@
+div{
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-family: 'Manrope', sans-serif;
+}
+
 .card-home{
     position:relative;
     left: 80px;
-    bottom: 450px;
+    bottom: 400px;
     font-size: 50px;
 }
 .card-home-header{
     position: relative;
+}
+
+.title1{
+    font-size: 40px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.nav-item{
+    font-size: 25px;
+}
+
+.contact{
+    font-size: 18px;
+    padding: 10px;
+}
+.contact>p{
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+.icon-group{
+    text-align: center;
+    font-size: 30px;
+}
+.icon-group>a{
+    color: black;
 }
