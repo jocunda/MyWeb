@@ -3,6 +3,10 @@ div{
 }
 h2{
     font-family: 'Manrope', sans-serif;
+    padding: 10px;
+}
+td{
+    padding-bottom: 30px;
 }
 
 .card-home{
@@ -14,14 +18,25 @@ h2{
 .card-home-header{
     position: relative;
 }
-
-.title1{
-    font-size: 40px;
+.card-content{
+    text-align: left;
+}
+.card-title{
+    font-weight: bold;
+}
+.navbar-brand{
+    font-size: 15px;
     font-family: 'Krona One', sans-serif;
+    justify-items: left;
+    color:white;
+}
+
+.card-header{
+    font-weight: bold;
 }
 
 .nav-item{
-    font-size: 25px;
+    font-size: 18px;
 }
 
 .contact{
@@ -40,4 +55,9 @@ h2{
 }
 .icon-group>a{
     color: black;
+}
+.position-adjust{
+    position: relative;
+    top: 80px;
+    left: 30px;
 }

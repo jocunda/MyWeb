@@ -22,80 +22,203 @@
 </head>
 <body>
     <!-- header -->
-    <div class="jumbotron p-5 text-center bg-dark text-white">
-        <h1 class="title1">Curriculum Vitae</h1>
-    </div>
+    <!-- <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Curriculum Vitae</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Experience</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav> -->
+
     <div>
-        <ul class="nav nav-tabs justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a></li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Experience</a></li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a></li>
+        <ul class="navbar navbar-expand-sm bg-dark fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand">Curriculum Vitae</a>
+                </div>
+                <div class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#homesection">Home</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#portsection">Education</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#expsection">Experience</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contactsection">Contact</a></li>
+                </div>
+            </div>
         </ul>
     </div>
 
     <!-- home -->
-    <div class="card ">
-        <div class="card-home-header pb-0">
-            <img src="./img/1.jpg" width="100%" class="img-fluid" alt="Responsive image">
-        <div class="card-home">
-                <p>I'm Cheese Cake</p>
-        </div>
+    <section id="homesection" class="py-5">
+        <div class="card">
+            <div class="card-home-header pb-0">
+                <img src="./img/1.jpg" width="100%" class="img-fluid" alt="Responsive image">
+            <div class="card-home">
+                    <p>I'm Cheese Cake</p>
+            </div>
+    </section>
+    
     
 
     <!-- portfolio -->
-    <div class="text-center justify-content-center">
-        <h2>Portfolio</h2>
-        <p>My latest work</p>
-    </div>
-
-    <div class="card-group">
-        <div class="card" style="width: 180px;">
-            <img src="./img/2.jpg" class="card-img-top">
-            <div class="card-body">
-                <h5 class="card-title">Strawberry Cheese</h5>
+    <section id="portsection" class="py-5">
+        <div class="container">
+            <div class="text-center justify-content-center">
+                <h2>Education and Skill</h2>
+                <p>I am chinese overseas from Indonesia. My study background is Architecture.
+        
+                </p>
+        
             </div>
-        </div>
-
-        <div class="card" style="width: 180px;">
-            <img src="./img/2.jpg" class="card-img-top">
-            <div class="card-body">
-                <h5 class="card-title">Strawberry Cheese</h5>
+        
+            <div class="card mb-3 bg-light">
+                <div class="card-header">
+                    <i class="fas fa-graduation-cap"></i> Education
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">2018</h5>
+                    <p>National Cheng Kung University - 國立成功大學
+                        </br>
+                        Master of Science in Architecture,
+                        Architectural Environmental Programming and Control - 
+                        建築碩士-建築環境計劃與控制
+                    </p>
+                </div>
             </div>
-        </div>
-
-        <div class="card" style="width: 180px;">
-            <img src="./img/2.jpg" class="card-img-top">
-            <div class="card-body">
-                <h5 class="card-title">Strawberry Cheese</h5>
+            <div class="card bg-light">
+                <div class="card-header">
+                    <i class="fas fa-wrench"></i> Expertise
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">2018</h5>
+                    <p>National Cheng Kung</p>
+                </div>
             </div>
+    
         </div>
-
-        <div class="card" style="width: 180px;">
-            <img src="./img/2.jpg" class="card-img-top">
-            <div class="card-body">
-                <h5 class="card-title">Strawberry Cheese</h5>
-            </div>
-        </div>
-    </div> 
-
+        
+    </section>
+    
 
     <!-- experience -->
-    <div class="text-center">
-        <div>
-            <h2>Experience</h2>
+    <section id="expsection" class="py-5">
+        <div class="text-center" >
+            <div>
+                <h2>Work Experience</h2>
+            </div>
         </div>
-    </div>
-    <div>
-
-    </div>
-
+        <div>
+            <table class="d-flex justify-content-center" >
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="card bg-secondary text-white" style="width: 250px;">
+                                <div class="card-header">
+                                    2020
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">BIM Enginner/工程師</h5>
+                                    <p>大陸工程股份有限公司</p>
+                                    <p class="card-content">
+                                        Build 3D model, construction drawing, external finishing, rendering and
+                                        upload QR Code to web system.
+                                    </br>
+                                        建制與修3D模型，繪製軀體圖，外墻計劃，彩現與QR Code上傳到系統。
+                                    </p>
+                                </div>
+                            </div>
+                        </td>
+        
+                            <td class="position-adjust">
+                                <div class="card" style="width: 250px;">
+                                    <div class="card-header">
+                                        2019
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">BIM Enginner/工程師</h5>
+                                        <p>昌吉營造股份有限公司</p>
+                                        <p class="card-content">
+                                            Build 3D model, dispel report and assist field engineer.
+                                        </br>
+                                            建BIM模型，釋疑報告，與協助現場工程師。
+                                        </p>
+                                    </div>
+                                </div>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            
+                            <div class="card bg-secondary text-white" style="width: 250px;">
+                                <div class="card-header">
+                                    2018
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Data Entry/資料輸入</h5>
+                                    <p>Indar Remit</p>
+                                    <p class="card-content">
+                                        Remittance data input to system and database
+                                    </br>
+                                        貨幣匯款資料輸入，到系統與資料庫
+                                    </p>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="position-adjust">
+                            <div class="card" style="width: 255px;">
+                                <div class="card-header">
+                                    2016
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Sales Promoter/銷售推廣</h5>
+                                    <p>台灣紅白電訊股份公司</p>
+                                    <p class="card-content">
+                                        Work part time as sales telecommunication card for Indonesia people.
+                                    </br>
+                                        兼職工作，做銷售電話卡給印尼人。
+                                    </p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="card bg-secondary text-white" style="width: 250px;">
+                                <div class="card-header">
+                                    2015
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Chinese Translator/工程中文翻譯</h5>
+                                    <p>PT.Global Mandira Semesta</p>
+                                    <p class="card-content">
+                                        Work as EPC Project translator in construction team.
+                                        Main job as Chinese-Indonesia-English translator for
+                                        mechanical and electrical work.
+                                    </br>
+                                        工作在EPC工程團隊。主要工作是翻譯機電工程，施工圖，文件，會議與現場。
+                                    </p>
+                                </div>
+                            </div>
+                        </td>
+                        
+                    </tr>
+    
+                </tbody>
+            </table>
+        </div>
+    
+    </section>
+   
     <!-- contact -->
-    <div>
+    <section id="contactsection" class="py-5">
         <div class="text-center">
             <h2>Contact</h2>
         </div>
@@ -103,12 +226,14 @@
             <p><i class="far fa-envelope"></i> silviawanshan88@gmail.com</p>
             <p><i class="fas fa-phone"></i> +886986406811</p>
             <div class="icon-group">
-                <a href="https://www.linkedin.com/in/silviajocunda"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/silviajocunda" target="_blank"><i class="fab fa-linkedin"></i></a>
                 <a href="https://jocunda.github.io/myweb/cv.html"><i class="fab fa-github"></i></a>
-                <a href="https://www.facebook.com/silvia.jocunda"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.facebook.com/silvia.jocunda" target="_blank"><i class="fab fa-facebook"></i></a>
             </div>
         </div>
-    </div>
+    </section>
+       
+    
 
     <!-- footer -->
     <div class="container-fluid p-3 bg-dark text-white">
