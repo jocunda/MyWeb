@@ -10,14 +10,14 @@ td{
 }
 
 .card-home{
-    position:relative;
+    position:absolute;
     left: 80px;
-    bottom: 400px;
+    top: 120px;
     font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
-.card-home-header{
-    position: relative;
-}
+
 .card-content{
     text-align: left;
 }
@@ -30,7 +30,13 @@ td{
     justify-items: left;
     color:white;
 }
+.paragraph{
+    align-items: center;
+    justify-items:center;
+    margin-top: 25px;
+    margin-left: 25px;
 
+}
 .card-header{
     font-weight: bold;
 }
