@@ -5,9 +5,6 @@ h2{
     font-family: 'Manrope', sans-serif;
     padding: 10px;
 }
-td{
-    padding-bottom: 30px;
-}
 
 .card-home{
     position:absolute;
@@ -63,3 +60,84 @@ td{
     top: 80px;
     left: 30px;
 }
+
+ /* setting timeline */
+ .timeline{
+     position:relative;
+     list-style:none;
+     margin:0;
+     padding:30px 0;
+ }
+ .timeline:before{
+     content:"";
+     width:5px;
+     position: absolute;
+     background-color: black;
+     top: 0;
+     bottom:0;
+     left:0;
+     right:0;
+     margin: auto;
+ }
+
+ .timeline>li{
+    padding: 20px 0;
+    position: relative;
+ }
+ .timeline>li:after{
+     content: "";
+     display: block;
+     clear: both;
+ }
+ .timeline .timeline-content{
+     width: 50%;
+     float:left;
+     background-color: rgb(219, 219, 219);
+     border-radius: 8px;
+     padding:30px;
+     position: relative;
+     box-shadow: 0 20px 20px -10px rgba(0, 0, 0, 0.288);
+ }
+ .timeline >li.timeline-right .timeline-content{
+    float: right;
+}
+ .timeline>li:not(.timeline-right){
+     padding-right: 100px;
+ }
+
+ .timeline>li.timeline-right{
+     padding-left:100px;
+ }
+ .timeline .timeline-dot{
+     width: 30px;
+     height: 30px;
+     position: absolute;
+     top:42px;
+     left: 0;
+     right: 0;
+     margin: 0 auto;
+     background-color: rgb(129, 132, 133);
+     border-radius: 50%;
+     z-index:100;
+ }
+ .timeline-content .content-year{
+    font-weight: bold;
+    background-color: rgb(189, 189, 189);
+    width:auto;
+    position: absolute;
+    z-index: 100;
+    top: 0px;
+    left:0;
+    right: 0;
+    border-radius: 8px 8px 0px 0px;
+    padding: 0px 30px;
+    font-size: 25px;
+ }
+ .timeline-content .content-spec{
+     margin-top: 20px;
+ }
+ 
+
+ 
+
+
