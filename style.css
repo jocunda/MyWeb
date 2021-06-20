@@ -60,6 +60,11 @@ h2{
     top: 80px;
     left: 30px;
 }
+/* portfolio image */
+.porto a>img{
+    width: 150px;
+}
+
 
  /* setting timeline */
  .timeline{
